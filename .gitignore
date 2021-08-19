@@ -6,3 +6,6 @@ node_modules
 
 # ignore data files
 /data
+
+# ignore my notes
+notes.md
