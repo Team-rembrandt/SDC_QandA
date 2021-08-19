@@ -1,0 +1,20 @@
+{
+  "name": "sdc_qa",
+  "version": "1.0.0",
+  "description": "SDC - System Design Capstone project. Covering the Questions and Answers API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Team-rembrandt/SDC_QandA.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Team-rembrandt/SDC_QandA/issues"
+  },
+  "homepage": "https://github.com/Team-rembrandt/SDC_QandA#readme"
+}
