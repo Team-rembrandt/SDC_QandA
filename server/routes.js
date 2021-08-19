@@ -2,7 +2,7 @@ var controller = require('./controller');
 var router = require('express').Router();
 
 // FOR Q & A API
-router.get('/questions', controller.qa.getQuestions);
+router.get('/questions/:product_id', controller.qa.getQuestions);
 router.get('/questions/:question_id/answers', controller.qa.getAnswers);
 
 router.post('/questions', controller.qa.postQuestion);
