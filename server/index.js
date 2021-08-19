@@ -7,6 +7,7 @@ let compression = require('compression');
 let bodyParser = require('body-parser');
 const morgan = require('morgan');
 const request = require('supertest');
+const config = require('../config.js');
 
 const app = express();
 
@@ -21,6 +22,11 @@ app.set('port', 3000);
 // tells our application to accept incoming JSON body in requests
 // (REST APIs communicate in JSON form)
 app.use(express.json());
+
+// loader io
+app.get(`/${config.loaderIO_key}`, (req, res) => {
+  res.send(config.loaderIO_key);
+});
 
 // set up our routes
 app.use('/qa', router);
