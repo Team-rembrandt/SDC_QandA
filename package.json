@@ -6,6 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start:dev": "node ./server/index.js",
+    "start:prod": "node ./server/index.js",
     "k6test": "k6 run ./server/api_stress.js"
   },
   "repository": {
