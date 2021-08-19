@@ -1,0 +1,8 @@
+# ignoring node modules
+node_modules
+
+# ignoring password for ec2
+./config.js
+
+# ignore data files
+/data
