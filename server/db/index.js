@@ -5,7 +5,7 @@ const pw = require('../../config.js');
 
 // this is my connection details used to create my db object
 const connection = {
-  host: '18.219.206.50',
+  host: '18.119.122.0',
   port: 5432,
   database: 'postgres',
   user: 'postgres',

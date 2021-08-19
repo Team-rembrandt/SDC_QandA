@@ -16,7 +16,7 @@ app.use(compression());
 // morgan can show us how long it takes to retrieve data from db
 app.use(morgan('dev'));
 // set port nuber
-app.set('port', 80);
+app.set('port', 3000);
 
 // tells our application to accept incoming JSON body in requests
 // (REST APIs communicate in JSON form)

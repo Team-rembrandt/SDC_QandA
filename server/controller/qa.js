@@ -7,7 +7,8 @@ module.exports = {
   // page
   // count
   getQuestions: function(req, res) {
-    let productId = req.body.product_id;
+    let productId = req.params.product_id;
+    console.log('pid', productId);
     let page = 1 || req.body.page;
     let counter = 5 || req.body.counter;
     models.qa.getQuestions(productId, page, counter, (err, results) => {

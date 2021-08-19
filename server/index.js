@@ -24,9 +24,9 @@ app.set('port', 3000);
 app.use(express.json());
 
 // loader io
-app.get(`/${config.loaderIO_key}`, (req, res) => {
-  res.send(config.loaderIO_key);
-});
+// app.get(`/${config.loaderIO_key}`, (req, res) => {
+//   res.send(config.loaderIO_key);
+// });
 
 // set up our routes
 app.use('/qa', router);
